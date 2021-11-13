@@ -1,0 +1,61 @@
+.uni-best-seller{
+  h4{
+    margin-bottom: 0;
+    a{
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: $color-1;
+      text-transform:  capitalize;
+      transition: all 0.5s;
+      &:hover{
+        color: $color-main;
+      }
+    }
+  }
+}
+
+.gb-book-details{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #e0e0e0;
+  &:last-child{
+    border-bottom: none;
+  }
+
+  h4{
+    a{
+      display: block;
+      font-style: normal;
+      font-stretch: normal;
+      color: $color-1;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      text-transform:  capitalize;
+      transition: all 0.5s;
+      &:hover{
+        color: $color-main;
+      }
+    }
+  }
+
+  .gb-best-seller-img{
+    float: left;
+    border: 1px solid #E0E0E0;
+    img{
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+    }
+  }
+  .gb-best-seller-info{
+    padding-left: 80px;
+  }
+}

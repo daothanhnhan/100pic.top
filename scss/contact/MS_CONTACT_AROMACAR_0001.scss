@@ -1,0 +1,26 @@
+/*FOOTER 1*/
+.footer-1{
+  ul{
+    li{
+      color: $color-1;
+      display: flow-root;
+      margin-bottom: 10px;
+      font-size: 14px;
+      .icons{
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $color-main;
+        color: $color-main;
+        float: left;
+      }
+      p{
+        padding-left: 60px;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+  }
+}

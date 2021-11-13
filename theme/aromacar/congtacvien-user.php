@@ -1,0 +1,1 @@
+<?php include_once "template/register/MS_REGISTER_100PIC_0002.php";  ?>

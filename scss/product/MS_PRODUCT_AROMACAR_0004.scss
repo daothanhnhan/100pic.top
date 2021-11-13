@@ -1,0 +1,55 @@
+.gb-product-tab-home{
+  padding: 50px 0;
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 767px) {
+      display: inherit;
+      align-items: inherit;
+      justify-content: inherit;
+    }
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+    @media screen and (max-width: 767px) {
+      float: none;
+    }
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: $color-1;
+    font-size: 18px;
+    font-weight: 600;
+    @media screen and (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 2px solid $color-main;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: $color-main;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 2px solid $color-main;
+    position: relative;
+    margin-bottom: 2px;
+    a{
+      color: $color-main;
+    }
+  }
+  .tabbable-line > .tab-content {
+    margin-top: 50px;
+    background-color: #fff;
+    border: 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+}

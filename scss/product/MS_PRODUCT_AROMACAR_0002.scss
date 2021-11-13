@@ -1,0 +1,24 @@
+/*ITEM PRICE*/
+.item-price{
+  margin-top: 10px;
+  p{
+    color: $color-2;
+  }
+  .news-price{
+    font-size: 14px;
+    font-weight: 500;
+    color: $color-main;
+  }
+  .old-price{
+    font-size: 13px;
+    text-decoration: line-through;
+    margin-top: 5px;
+  }
+  .sale-percent{
+    background: $color-main;
+    color: $color-white;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}

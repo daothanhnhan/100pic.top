@@ -1,0 +1,96 @@
+/*DO YOU WANT TO SELL A CAR*/
+.uni-do-you-want-sell{
+  background: url("../images/banner/backgroundcopy.jpg"), no-repeat;
+  padding: 60px 0;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .uni-icons{
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+  }
+  h2{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    span{
+      color: $color-main;
+    }
+  }
+  p{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin:  30px 0;
+  }
+  ul{
+    li{
+      display:  inline-block;
+      margin-left: 30px;
+      @media screen and (max-width: 991px) {
+        margin-top: 20px;
+        margin-left: 0;
+      }
+      &:first-child{
+        margin-left:  0;
+        @media screen and (max-width: 991px) {
+          margin-top: 0;
+        }
+      }
+      a{
+        display:  block;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 50px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        border-radius: 4px;
+        border: solid 1px $color-main;
+        min-width: 160px;
+        transition:  all 0.5s;
+        i{
+          color: $color-main;
+          padding-left: 10px;
+          transition:  all 0.5s;
+        }
+        &:hover{
+          background: $color-main;
+          i{
+            color: #fff;
+          }
+        }
+      }
+      h4{
+        font-size: 24px;
+        font-weight: bold;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 0.71;
+        letter-spacing: normal;
+        text-transform: uppercase;
+        text-align: left;
+        color: $color-main;
+        span{
+          color: #fff;
+        }
+      }
+    }
+  }
+}

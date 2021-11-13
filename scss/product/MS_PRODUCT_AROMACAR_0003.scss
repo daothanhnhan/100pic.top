@@ -1,0 +1,35 @@
+/*BOX SALE*/
+.boxsale-product{
+  position: absolute;
+  background: $color-main;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: table;
+  padding: 4px 6px;
+  top: -8px;
+  right: 15px;
+  z-index: 1;
+  color: $color-white;
+
+  &:before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 7px solid #4c4b4c;
+    border-left: 8px solid transparent;
+    top: 0;
+    right: 42px;
+  }
+  &:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 8px solid $color-main;
+    top: 20px;
+    right: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.gb-sanphamlienquan{
+  .title{
+    h3{
+      font-size: 16px;
+      font-weight: bold;
+      text-align: left;
+      color: $color-1;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: 10px;
+      &:before{
+        position: absolute;
+        content: '';
+        width: 114px;
+        bottom: -2px;
+        left: 1px;
+        height: 3px;
+        background: $color-main;
+      }
+    }
+  }
+}

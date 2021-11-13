@@ -1,0 +1,37 @@
+.gb-thongtinlienhe-sp{
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid $color-border;
+  h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  ul{
+    li{
+      color: $color-1;
+      display: flow-root;
+      margin-bottom: 10px;
+      font-size: 14px;
+      .icons{
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $color-main;
+        color: $color-main;
+        float: left;
+      }
+      p{
+        padding-left: 60px;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+  }
+}

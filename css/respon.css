@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) {
+
+  }
+  @media screen and (max-width: 991px) {
+
+  }
+  @media screen and (max-width: 767px) {
+    .xem-them {
+      text-align: center;
+      margin: 0 auto;
+      margin: -top;
+      margin-top: 20px;
+      margin-bottom: 31px;
+      width: 44%;
+  }
+    .button {
+        position: relative;
+        display: inline-block;
+        border: none;
+        border-radius: 3px;
+        padding: 0 20px;
+        text-align: center;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 0 30px;
+        min-width: 33px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 44px;
+        transition: 250ms linear;
+        background: #1273eb;
+        color: #fff;
+    }
+    #search .group input {
+        padding: 6px 8px;
+        font-size: 10px;
+    }
+    button.loc_1 {
+      border: 1px solid #cfd9e0;
+      padding: 3px;
+      border-radius: 5px;
+      font-size: 8px;
+    }
+    .search .group .button {
+      background-color: #fff;
+      color: #000;
+  }
+  button.button.button--white.button--icon i {
+    font-size: 10px;
+}
+  }

@@ -1,0 +1,127 @@
+.gb-chitiet_sanpham-body{
+  padding: 50px 0;
+  .slider-for{
+    border: 1px solid $color-border;
+    @media screen and (min-width: 9992px) {
+      height: 250px;
+    }
+    img{
+      width: auto;
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+  .slide-item-nav{
+    border: 1px solid $color-border;
+    margin: 0 5px;
+    background: #f1f1f1;
+  }
+  .slider-nav{
+    margin-top: 10px;
+  }
+  .gb-thongso-mota{
+    .tab-content{
+      padding: 20px 0;
+      p{
+        color: $color-grey;
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+.gb-chitiet_sanpham-left{
+  .gb-chitiet_sanpham_left-info{
+    @media screen and (max-width: 991px) {
+      padding-top: 20px;
+    }
+    h1{
+      font-size: 30px;
+      color: $color-1;
+    }
+    .description{
+      color: $color-grey;
+      font-size: 14px;
+      line-height: 24px;
+      margin: 20px 0;
+    }
+  }
+}
+
+.gb-thongso-mota{
+  padding: 50px 0;
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: $color-1;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 2px solid $color-main;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: $color-main;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 2px solid $color-main;
+    position: relative;
+    margin-bottom: 2px;
+    a{
+      color: $color-main;
+    }
+  }
+  .tabbable-line > .tab-content {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+  .tab-content{
+    h1 {
+      font-size: 24px;
+      font-weight: 600; }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 600; }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600; }
+
+    h4 {
+      font-size: 18px;
+      font-weight: 600; }
+
+    h5 {
+      font-size: 16px;
+      font-weight: 600; }
+
+    h6 {
+      font-size: 14px;
+      font-weight: 600; }
+
+    ul li {
+      display: block;
+      color: #333;
+      font-size: 16px;
+      line-height: 26px; }
+
+    p {
+      color: #333;
+      font-size: 16px;
+      line-height: 26px; }
+  }
+}

@@ -1,0 +1,84 @@
+.gb-login{
+  padding: 40px 0;
+  h1{
+    color: #000;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .line-border{
+    border-right: 1px solid #ddd;
+  }
+  .btndangnhapfacebook{
+    text-align: center;
+    a{
+      display: inline-block;
+      min-width: 300px;
+      background: #3a5794;
+      border: 2px solid #3a5794;;
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+      transition:  all 0.5s;
+      &:hover{
+        color: #3a5794;
+        background: transparent;
+      }
+    }
+  }
+  .gb-login-form{
+    background: #f1f1f1;
+    display: flex;
+    margin-top: 30px;
+    padding: 30px 20px;
+    h2{
+      color: #000;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    p{
+      color: #000;
+      font-size: 15px;
+      line-height: 25px;
+      padding-bottom: 15px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    label{
+      color: #000;
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .form-control{
+      height: 45px;
+      border-radius: 0;
+    }
+    .btn{
+      width: 100%;
+      height: 45px;
+      background: #f0ad4e;
+      border: 2px solid #f0ad4e;
+      border-radius: 0;
+      color: #000;
+      font-weight: 600;
+      font-size: 18px;
+      text-transform: uppercase;
+      transition:  all 0.5s;
+      &:hover{
+        color: #f0ad4e;
+        background: transparent;
+      }
+    }
+    .gb-btn-quen-mat-khau{
+      text-align: center;
+      margin-top: 20px;
+      a{
+        display: block;
+      }
+    }
+  }
+}
